@@ -5,32 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="box">
-            <div class="icon"><i class="fa fa-search" aria-hidden="true"></i></div>
-            <div class="content">
-                <h3>Search</h3>
-                <p>aasajsanjnsuhsi dhdjkmdwdiwdkdmwidj wdjwdwidj</p>
-            </div>
-        </div>
-        <div class="box">
-            <div class="icon"><i class="fa fa-user" aria-hidden="true"></i></div>
-            <div class="content">
-                <h3>Search</h3>
-                <p>aasajsanjnsuhsi dhdjkmdwdiwdkdmwidj wdjwdwidj</p>
-            </div>
-        </div>
-        <div class="box">
-            <div class="icon"><i class="fa fa-car" aria-hidden="true"></i></div>
-            <div class="content">
-                <h3>Search</h3>
-                <p>aasajsanjnsuhsi dhdjkmdwdiwdkdmwidj wdjwdwidj</p>
-            </div>
-        </div>
+    <div class="contaiiner">
+    <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+    <div class="popup" id="popup">
+        <img src="404-tick.png" alt="">
+        <h2>Thank You</h2>
+        <p>Your details has been successfully submitted. Thanks!</p>
+        <button type="button" onclick="closePopup()">Ok</button>
     </div>
+    </div>
+
+    <script>
+        let popup = document.getElementById("popup");
+
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+    </script>
 </body>
 </html>
