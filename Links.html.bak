@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+    <meta charset="UFT-8"
+	<meta name="description" content="This is awesom web site">
+    <title>Sashen's Website</title>
+	
+  </head>
+  <body>
+    
+	
+	
+	<a href="page2.html"> <h1><b>Page 2</b></h1></a>
+    <a href="Style_color.html"> <h1><b>Style and color</b></h1></a>
+    <a href="https://images.app.goo.gl/jp9mfY8q6Nk7uAYg7"><h1>You want some Cat picture</h1></a>
+    <a href="https://www.tomorrowland.com/home/"> <h1><i>Tomorrowland Belgium</i></h1></a>
+
+
+
+
+
+  </body>
+
+
+</html>

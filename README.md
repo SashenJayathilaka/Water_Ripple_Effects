@@ -1,12 +1,17 @@
-# Web design
-Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization.
-# Designing Websites: The 8 Steps
+# HTML (HyperText Markup Language)
 
-Define your site’s purpose and strategy <br>
-Research the latest web design trends <br> 
-Choose your platform <br>
-Select a template and start customizing <br>
-Decide on your branding <br>
-Add in and optimize your content <br>
-Publish your website <br>
-Analyze and improve <br>
+The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
+
+# HTML is very easy to learn.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+</head>
+<body>
+    <p>Hello World!</p>
+</body>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8"
+	meta name=name="description" content="This is awesom web site">
+    <title>Sashen's Website</title>
+  </head>
+  <body>
+
+
+  
+    <a href="#">link1</a>
+	<a href="#">link2</a>
+	
+  <hr>
+  
+    <p>Paragraph1</p>
+	<p>Paragraph2</p>
+	
+  <hr>
+  
+    <span>span1</span>
+    <span>span2</span>
+
+
+
+
+
+  </body>
+
+
+</html>
